@@ -49,3 +49,12 @@ array([[5.4322064 , 3.35448315, 4.16062565],
 <matplotlib.collections.PathCollection object at 0x10a535b38>
 >>> plt.show()
 ```
+若将散点图按照labels分类选取不同颜色,则可更改测试代码:   
+```
+>>> import matplotlib
+>>> import matplotlib.pyplot as plt
+>>> fig = plt.figure()
+>>> ax = fig.add_subplot(111)
+>>> ax.scatter(mat[:,1],mat[:,2],15.0*array[lab],15.0*array[lab])
+>>> plt.show()
+```
