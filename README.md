@@ -1,4 +1,4 @@
-# k_Nearest_Neighbor
+# K临近算法（KNN）
 
 ## kNN算法示例1
 
